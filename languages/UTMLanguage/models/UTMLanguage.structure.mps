@@ -5,8 +5,8 @@
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
   </languages>
   <imports>
+    <import index="paw0" ref="r:f7d4d0f4-80b2-4a76-a5ec-aa98717d5b7a(UTMEntities.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="paw0" ref="r:f7d4d0f4-80b2-4a76-a5ec-aa98717d5b7a(UTMEntities.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
@@ -32,6 +32,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -48,11 +51,6 @@
       <property role="20kJfa" value="attributes" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="1KDiwWFrMdW" resolve="AttributeExtension" />
-    </node>
-    <node concept="1TJgyj" id="1KDiwWFrzkW" role="1TKVEi">
-      <property role="IQ2ns" value="2029234536120726844" />
-      <property role="20kJfa" value="exp" />
-      <ref role="20lvS9" to="paw0:3iJK1s_cRKQ" resolve="Attribute" />
     </node>
   </node>
   <node concept="1TIwiD" id="1KDiwWFrMdW">
@@ -74,6 +72,52 @@
     </node>
     <node concept="PrWs8" id="1KDiwWFrMdX" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2bMn68cEnBO">
+    <property role="EcuMT" value="2518176717842512372" />
+    <property role="TrG5h" value="Enum" />
+    <property role="3GE5qa" value="enums" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2bMn68cEnBP" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2bMn68cEnBU">
+    <property role="EcuMT" value="2518176717842512378" />
+    <property role="3GE5qa" value="enums" />
+    <property role="TrG5h" value="EnumList" />
+    <ref role="1TJDcQ" to="paw0:3iJK1s_cRKQ" resolve="Attribute" />
+    <node concept="1TJgyj" id="2bMn68cEnBZ" role="1TKVEi">
+      <property role="IQ2ns" value="2518176717842512383" />
+      <property role="20kJfa" value="entity" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="paw0:3iJK1s_cRKL" resolve="Entity" />
+    </node>
+    <node concept="1TJgyj" id="2bMn68cEnBX" role="1TKVEi">
+      <property role="IQ2ns" value="2518176717842512381" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="enums" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="2bMn68cEnBO" resolve="Enum" />
+    </node>
+    <node concept="PrWs8" id="2bMn68cEnBV" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="2bMn68cFj_P" role="PzmwI">
+      <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2bMn68cE_Xd">
+    <property role="EcuMT" value="2518176717842571085" />
+    <property role="3GE5qa" value="enums" />
+    <property role="TrG5h" value="EnumRef" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="2bMn68cE_Xe" role="1TKVEi">
+      <property role="IQ2ns" value="2518176717842571086" />
+      <property role="20kJfa" value="enum" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2bMn68cEnBO" resolve="Enum" />
     </node>
   </node>
 </model>
