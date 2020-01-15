@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/UTMAreas/UTMAreas.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/UTMEntities/UTMEntities.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/UTMLanguage/UTMLanguage.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/UTMLanguage/sandbox/UTMLanguage.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/StandardLib/StandardLib.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

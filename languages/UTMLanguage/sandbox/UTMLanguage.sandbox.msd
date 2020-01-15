@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solution name="UTMLanguage.sandbox" uuid="25e7bee8-7812-43ef-9a4a-cfefd6d936a9" moduleVersion="0" compileInMPS="true">
+  <models>
+    <modelRoot contentPath="${module}" type="default">
+      <sourceRoot location="models" />
+    </modelRoot>
+  </models>
+  <sourcePath />
+  <dependencies>
+    <dependency reexport="false">ad1b9d16-b401-493a-ab72-f2b08770c857(StandardLib)</dependency>
+  </dependencies>
+  <languageVersions>
+    <language slang="l:73e3a3a6-daa3-492b-9fe0-f06a33f40838:UTMLanguage" version="0" />
+    <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
+  </languageVersions>
+  <dependencyVersions>
+    <module reference="ad1b9d16-b401-493a-ab72-f2b08770c857(StandardLib)" version="0" />
+    <module reference="25e7bee8-7812-43ef-9a4a-cfefd6d936a9(UTMLanguage.sandbox)" version="0" />
+  </dependencyVersions>
+</solution>
+
