@@ -10,16 +10,7 @@
   <registry>
     <language id="73e3a3a6-daa3-492b-9fe0-f06a33f40838" name="UTMLanguage">
       <concept id="3796464216537536883" name="UTMLanguage.structure.UTM" flags="ng" index="hB5_$">
-        <child id="2518176717842512386" name="enums" index="ImMpw" />
         <child id="2029234536120787839" name="attributes" index="RhA_K" />
-      </concept>
-      <concept id="2518176717842571085" name="UTMLanguage.structure.EnumRef" flags="ng" index="Im0cJ">
-        <reference id="2518176717842571086" name="enum" index="Im0cG" />
-      </concept>
-      <concept id="2518176717842512372" name="UTMLanguage.structure.Enum" flags="ng" index="ImMmm" />
-      <concept id="2518176717842512378" name="UTMLanguage.structure.EnumList" flags="ng" index="ImMmo">
-        <reference id="2518176717842512383" name="entity" index="ImMmt" />
-        <child id="2518176717842512381" name="enums" index="ImMmv" />
       </concept>
       <concept id="2029234536120787836" name="UTMLanguage.structure.AttributeExtension" flags="ng" index="RhA_N">
         <reference id="2029234536120863587" name="entity" index="Rmg5G" />
@@ -52,19 +43,6 @@
     </language>
   </registry>
   <node concept="hB5_$" id="3iJK1s_cUP$">
-    <node concept="ImMmo" id="2bMn68cF_bE" role="ImMpw">
-      <property role="TrG5h" value="Rank" />
-      <ref role="ImMmt" to="e1gn:3iJK1s_cUPF" resolve="pilot" />
-      <node concept="ImMmm" id="2bMn68cF_d1" role="ImMmv">
-        <property role="TrG5h" value="rank 3" />
-      </node>
-      <node concept="ImMmm" id="2bMn68cF_ce" role="ImMmv">
-        <property role="TrG5h" value="rank 2" />
-      </node>
-      <node concept="ImMmm" id="2bMn68cF_bS" role="ImMmv">
-        <property role="TrG5h" value="rank 1" />
-      </node>
-    </node>
     <node concept="RhA_N" id="1KDiwWFsUTF" role="RhA_K">
       <property role="TrG5h" value="duration" />
       <ref role="Rmg5G" to="e1gn:3iJK1s_cUP_" resolve="mission" />
@@ -84,25 +62,13 @@
     </node>
     <node concept="RhA_N" id="2bMn68cELpx" role="RhA_K">
       <property role="TrG5h" value="adult pilot" />
-      <ref role="Rmg5G" to="e1gn:3iJK1s_cUPF" resolve="pilot" />
+      <ref role="Rmg5G" to="e1gn:ZNpdy5Wo4P" resolve="pilot" />
       <node concept="3eOVzh" id="2bMn68cFzKJ" role="Rmg5E">
         <node concept="3b6qkQ" id="2bMn68cFzqY" role="3uHU7B">
           <property role="$nhwW" value="2.2" />
         </node>
         <node concept="3cmrfG" id="2bMn68cF$3d" role="3uHU7w">
           <property role="3cmrfH" value="4" />
-        </node>
-      </node>
-    </node>
-    <node concept="RhA_N" id="2bMn68cFsOH" role="RhA_K">
-      <property role="TrG5h" value="afs" />
-      <ref role="Rmg5G" to="e1gn:3iJK1s_cUPF" resolve="pilot" />
-      <node concept="3eOVzh" id="2bMn68cF_fc" role="Rmg5E">
-        <node concept="Im0cJ" id="2bMn68cF_gx" role="3uHU7w">
-          <ref role="Im0cG" node="2bMn68cF_ce" resolve="rank 2" />
-        </node>
-        <node concept="Im0cJ" id="2bMn68cF_v9" role="3uHU7B">
-          <ref role="Im0cG" node="2bMn68cF_bS" resolve="rank 1" />
         </node>
       </node>
     </node>
