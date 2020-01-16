@@ -18,6 +18,9 @@
       </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
       <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -39,12 +42,17 @@
     <node concept="RhA_N" id="1KDiwWFsUTF" role="RhA_K">
       <property role="TrG5h" value="duration" />
       <ref role="Rmg5G" to="e1gn:3iJK1s_cUP_" resolve="mission" />
-      <node concept="3cpWsd" id="1KDiwWFsVkf" role="Rmg5E">
-        <node concept="RmvTG" id="1KDiwWFsVkw" role="3uHU7w">
-          <ref role="Rmpzc" to="e1gn:1KDiwWFsUT8" resolve="start time" />
+      <node concept="3cpWsd" id="ZNpdy5Woza" role="Rmg5E">
+        <node concept="3cmrfG" id="ZNpdy5WozE" role="3uHU7w">
+          <property role="3cmrfH" value="2" />
         </node>
-        <node concept="RmvTG" id="1KDiwWFsUTR" role="3uHU7B">
-          <ref role="Rmpzc" to="e1gn:1KDiwWFsUTg" resolve="end time" />
+        <node concept="3cpWsd" id="1KDiwWFsVkf" role="3uHU7B">
+          <node concept="RmvTG" id="1KDiwWFsUTR" role="3uHU7B">
+            <ref role="Rmpzc" to="e1gn:1KDiwWFsUTg" resolve="end time" />
+          </node>
+          <node concept="RmvTG" id="1KDiwWFsVkw" role="3uHU7w">
+            <ref role="Rmpzc" to="e1gn:1KDiwWFsUT8" resolve="start time" />
+          </node>
         </node>
       </node>
     </node>
