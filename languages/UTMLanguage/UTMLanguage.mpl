@@ -63,6 +63,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">a634746d-dc66-4950-8ec4-cf9864db1566(UTMAreas)</dependency>
+    <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="9" />

@@ -6,8 +6,8 @@
   </languages>
   <imports>
     <import index="paw0" ref="r:f7d4d0f4-80b2-4a76-a5ec-aa98717d5b7a(UTMEntities.structure)" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -56,19 +56,20 @@
   <node concept="1TIwiD" id="1KDiwWFrMdW">
     <property role="EcuMT" value="2029234536120787836" />
     <property role="TrG5h" value="AttributeExtension" />
-    <ref role="1TJDcQ" to="paw0:3iJK1s_cRKQ" resolve="Attribute" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2eHLempx7nT" role="1TKVEi">
+      <property role="IQ2ns" value="2570927452700571129" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="entity" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="paw0:3iJK1s_cRKL" resolve="AbstractEntity" />
+    </node>
     <node concept="1TJgyj" id="1KDiwWFs4H_" role="1TKVEi">
       <property role="IQ2ns" value="2029234536120863589" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="assignment" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-    <node concept="1TJgyj" id="1KDiwWFs4Hz" role="1TKVEi">
-      <property role="IQ2ns" value="2029234536120863587" />
-      <property role="20kJfa" value="entity" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="paw0:3iJK1s_cRKL" resolve="Entity" />
     </node>
     <node concept="PrWs8" id="1KDiwWFrMdX" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -87,12 +88,12 @@
     <property role="EcuMT" value="2518176717842512378" />
     <property role="3GE5qa" value="enums" />
     <property role="TrG5h" value="EnumList" />
-    <ref role="1TJDcQ" to="paw0:3iJK1s_cRKQ" resolve="Attribute" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2bMn68cEnBZ" role="1TKVEi">
       <property role="IQ2ns" value="2518176717842512383" />
       <property role="20kJfa" value="entity" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="paw0:3iJK1s_cRKL" resolve="Entity" />
+      <ref role="20lvS9" to="paw0:3iJK1s_cRKL" resolve="AbstractEntity" />
     </node>
     <node concept="1TJgyj" id="2bMn68cEnBX" role="1TKVEi">
       <property role="IQ2ns" value="2518176717842512381" />
@@ -118,6 +119,17 @@
       <property role="20kJfa" value="enum" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="2bMn68cEnBO" resolve="Enum" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2eHLempwO2y">
+    <property role="EcuMT" value="2570927452700491938" />
+    <property role="TrG5h" value="AttributeRef" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="2eHLempwO2z" role="1TKVEi">
+      <property role="IQ2ns" value="2570927452700491939" />
+      <property role="20kJfa" value="attribute" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1KDiwWFrMdW" resolve="AttributeExtension" />
     </node>
   </node>
 </model>

@@ -13,28 +13,13 @@
         <child id="2029234536120787839" name="attributes" index="RhA_K" />
       </concept>
       <concept id="2029234536120787836" name="UTMLanguage.structure.AttributeExtension" flags="ng" index="RhA_N">
-        <reference id="2029234536120863587" name="entity" index="Rmg5G" />
         <child id="2029234536120863589" name="assignment" index="Rmg5E" />
-      </concept>
-    </language>
-    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1111509017652" name="jetbrains.mps.baseLanguage.structure.FloatingPointConstant" flags="nn" index="3b6qkQ">
-        <property id="1113006610751" name="value" index="$nhwW" />
-      </concept>
-      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
-        <property id="1068580320021" name="value" index="3cmrfH" />
-      </concept>
-      <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
-      <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
-      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
-        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
-        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
+        <child id="2570927452700571129" name="entity" index="2Uar4s" />
       </concept>
     </language>
     <language id="f24e7269-0ec9-4fdb-9f98-2645ee110791" name="UTMEntities">
-      <concept id="2029234536120890467" name="UTMEntities.structure.AttributeRef" flags="ng" index="RmvTG">
-        <reference id="2029234536120898243" name="attribute" index="Rmpzc" />
-      </concept>
+      <concept id="2570927452700381155" name="UTMEntities.structure.Speed" flags="ng" index="2Ub4G6" />
+      <concept id="2570927452700381122" name="UTMEntities.structure.DroneEntity" flags="ng" index="2Ub4GB" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -42,35 +27,11 @@
       </concept>
     </language>
   </registry>
-  <node concept="hB5_$" id="3iJK1s_cUP$">
-    <node concept="RhA_N" id="1KDiwWFsUTF" role="RhA_K">
-      <property role="TrG5h" value="duration" />
-      <ref role="Rmg5G" to="e1gn:3iJK1s_cUP_" resolve="mission" />
-      <node concept="3cpWsd" id="ZNpdy5Woza" role="Rmg5E">
-        <node concept="3cmrfG" id="ZNpdy5WozE" role="3uHU7w">
-          <property role="3cmrfH" value="2" />
-        </node>
-        <node concept="3cpWsd" id="1KDiwWFsVkf" role="3uHU7B">
-          <node concept="RmvTG" id="2eHLempt9uj" role="3uHU7B">
-            <ref role="Rmpzc" to="e1gn:2eHLempt9dV" resolve="end time" />
-          </node>
-          <node concept="RmvTG" id="2eHLempt9v1" role="3uHU7w">
-            <ref role="Rmpzc" to="e1gn:2eHLempt9ei" resolve="start time" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="RhA_N" id="2bMn68cELpx" role="RhA_K">
-      <property role="TrG5h" value="adult pilot" />
-      <ref role="Rmg5G" to="e1gn:2eHLemptsCr" resolve="pilot" />
-      <node concept="3eOVzh" id="2bMn68cFzKJ" role="Rmg5E">
-        <node concept="3b6qkQ" id="2bMn68cFzqY" role="3uHU7B">
-          <property role="$nhwW" value="2.2" />
-        </node>
-        <node concept="3cmrfG" id="2eHLempsYaH" role="3uHU7w">
-          <property role="3cmrfH" value="4" />
-        </node>
-      </node>
+  <node concept="hB5_$" id="2eHLempx7nj">
+    <node concept="RhA_N" id="2eHLempyd1W" role="RhA_K">
+      <property role="TrG5h" value="q" />
+      <node concept="2Ub4GB" id="2eHLempyd2a" role="2Uar4s" />
+      <node concept="2Ub4G6" id="2eHLempyl$L" role="Rmg5E" />
     </node>
   </node>
 </model>

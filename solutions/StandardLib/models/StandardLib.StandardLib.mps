@@ -7,21 +7,6 @@
   </languages>
   <imports />
   <registry>
-    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
-      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
-    </language>
-    <language id="f24e7269-0ec9-4fdb-9f98-2645ee110791" name="UTMEntities">
-      <concept id="3796464216537529393" name="UTMEntities.structure.Entity" flags="ng" index="hBbKA">
-        <child id="3796464216537529403" name="attributes" index="hBbKG" />
-      </concept>
-      <concept id="3796464216537529392" name="UTMEntities.structure.EntityList" flags="ng" index="hBbKB">
-        <child id="3796464216537529394" name="entities" index="hBbK_" />
-      </concept>
-      <concept id="2570927452699490571" name="UTMEntities.structure.TypedAttribute" flags="ng" index="2URzRI">
-        <child id="2570927452699490572" name="type" index="2URzRD" />
-      </concept>
-    </language>
     <language id="a634746d-dc66-4950-8ec4-cf9864db1566" name="UTMAreas">
       <concept id="3796464216537535447" name="UTMAreas.structure.AreaList" flags="ng" index="hB5f0">
         <child id="3796464216537538480" name="areas" index="hB5YB" />
@@ -34,33 +19,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="hBbKB" id="3iJK1s_cTXn">
-    <node concept="hBbKA" id="2eHLempt9ds" role="hBbK_">
-      <property role="TrG5h" value="drone" />
-      <node concept="2URzRI" id="2eHLempt9dE" role="hBbKG">
-        <property role="TrG5h" value="speed" />
-        <node concept="10Oyi0" id="2eHLempt9dM" role="2URzRD" />
-      </node>
-    </node>
-    <node concept="hBbKA" id="3iJK1s_cUP_" role="hBbK_">
-      <property role="TrG5h" value="mission" />
-      <node concept="2URzRI" id="2eHLempt9dV" role="hBbKG">
-        <property role="TrG5h" value="end time" />
-        <node concept="10Oyi0" id="2eHLempt9e3" role="2URzRD" />
-      </node>
-      <node concept="2URzRI" id="2eHLempt9ei" role="hBbKG">
-        <property role="TrG5h" value="start time" />
-        <node concept="10Oyi0" id="2eHLempt9ew" role="2URzRD" />
-      </node>
-    </node>
-    <node concept="hBbKA" id="2eHLemptsCr" role="hBbK_">
-      <property role="TrG5h" value="pilot" />
-      <node concept="2URzRI" id="2eHLemptsCT" role="hBbKG">
-        <property role="TrG5h" value="name" />
-        <node concept="17QB3L" id="2eHLemptsD1" role="2URzRD" />
-      </node>
-    </node>
-  </node>
   <node concept="hB5f0" id="3iJK1s_cTYJ">
     <node concept="hB5ff" id="3iJK1s_cUdt" role="hB5YB">
       <property role="TrG5h" value="airport" />
