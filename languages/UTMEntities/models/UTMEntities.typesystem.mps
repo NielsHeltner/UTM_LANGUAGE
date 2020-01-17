@@ -85,32 +85,32 @@
       <ref role="1YaFvo" to="paw0:1KDiwWFsbhz" resolve="AttributeRef" />
     </node>
   </node>
-  <node concept="1YbPZF" id="1KDiwWFskWh">
-    <property role="TrG5h" value="typeof_Attribute" />
-    <node concept="3clFbS" id="1KDiwWFskWi" role="18ibNy">
-      <node concept="1Z5TYs" id="1KDiwWFsq9O" role="3cqZAp">
-        <node concept="mw_s8" id="1KDiwWFsqa8" role="1ZfhKB">
-          <node concept="2OqwBi" id="1KDiwWFsK8X" role="mwGJk">
-            <node concept="1YBJjd" id="1KDiwWFsK1s" role="2Oq$k0">
-              <ref role="1YBMHb" node="1KDiwWFskWk" resolve="attribute" />
+  <node concept="1YbPZF" id="2eHLempsZBQ">
+    <property role="TrG5h" value="typeof_TypedAttribute" />
+    <node concept="3clFbS" id="2eHLempsZBR" role="18ibNy">
+      <node concept="1Z5TYs" id="2eHLempsZNE" role="3cqZAp">
+        <node concept="mw_s8" id="2eHLempsZNW" role="1ZfhKB">
+          <node concept="2OqwBi" id="2eHLempsZW2" role="mwGJk">
+            <node concept="1YBJjd" id="2eHLempsZNU" role="2Oq$k0">
+              <ref role="1YBMHb" node="2eHLempsZBT" resolve="typedAttribute" />
             </node>
-            <node concept="3TrEf2" id="1KDiwWFsKhp" role="2OqNvi">
-              <ref role="3Tt5mk" to="paw0:1KDiwWFsfqz" resolve="type" />
+            <node concept="3TrEf2" id="2eHLempt06G" role="2OqNvi">
+              <ref role="3Tt5mk" to="paw0:2eHLempsZ$c" resolve="type" />
             </node>
           </node>
         </node>
-        <node concept="mw_s8" id="1KDiwWFsq9R" role="1ZfhK$">
-          <node concept="1Z2H0r" id="1KDiwWFspT5" role="mwGJk">
-            <node concept="1YBJjd" id="1KDiwWFspUT" role="1Z2MuG">
-              <ref role="1YBMHb" node="1KDiwWFskWk" resolve="attribute" />
+        <node concept="mw_s8" id="2eHLempsZNH" role="1ZfhK$">
+          <node concept="1Z2H0r" id="2eHLempsZBX" role="mwGJk">
+            <node concept="1YBJjd" id="2eHLempsZDL" role="1Z2MuG">
+              <ref role="1YBMHb" node="2eHLempsZBT" resolve="typedAttribute" />
             </node>
           </node>
         </node>
       </node>
     </node>
-    <node concept="1YaCAy" id="1KDiwWFskWk" role="1YuTPh">
-      <property role="TrG5h" value="attribute" />
-      <ref role="1YaFvo" to="paw0:3iJK1s_cRKQ" resolve="Attribute" />
+    <node concept="1YaCAy" id="2eHLempsZBT" role="1YuTPh">
+      <property role="TrG5h" value="typedAttribute" />
+      <ref role="1YaFvo" to="paw0:2eHLempsZ$b" resolve="TypedAttribute" />
     </node>
   </node>
 </model>

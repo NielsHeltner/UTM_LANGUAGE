@@ -24,6 +24,9 @@
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
+      <concept id="6718020819487620873" name="jetbrains.mps.lang.editor.structure.TransformationMenuReference_Named" flags="ng" index="A1WHu">
+        <reference id="6718020819487620874" name="menu" index="A1WHt" />
+      </concept>
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
@@ -32,6 +35,9 @@
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
+      </concept>
+      <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
+        <child id="4202667662392416064" name="transformationMenu" index="3vIgyS" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
@@ -67,18 +73,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="24kQdi" id="1KDiwWFrDNR">
-    <ref role="1XX52x" to="paw0:3iJK1s_cRKQ" resolve="Attribute" />
-    <node concept="3EZMnI" id="1KDiwWFsfqA" role="2wV5jI">
-      <node concept="3F0A7n" id="1KDiwWFsfqE" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
-      <node concept="3F1sOY" id="1KDiwWFsfqJ" role="3EZMnx">
-        <ref role="1NtTu8" to="paw0:1KDiwWFsfqz" resolve="type" />
-      </node>
-      <node concept="2iRfu4" id="ZNpdy5VPha" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="1KDiwWFsdbd">
     <ref role="1XX52x" to="paw0:1KDiwWFsbhz" resolve="AttributeRef" />
     <node concept="1iCGBv" id="1KDiwWFsdbf" role="2wV5jI">
@@ -134,10 +128,25 @@
           <node concept="VPM3Z" id="ZNpdy5VEva" role="3F10Kt" />
           <node concept="3F0ifn" id="ZNpdy5VSRc" role="2czzBI">
             <property role="ilYzB" value="&lt;no attributes&gt;" />
+            <node concept="A1WHu" id="2eHLempwjq2" role="3vIgyS">
+              <ref role="A1WHt" node="2eHLemptHmu" resolve="Tran" />
+            </node>
           </node>
         </node>
       </node>
       <node concept="2iRkQZ" id="ZNpdy5VluN" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2eHLempsZ$n">
+    <ref role="1XX52x" to="paw0:2eHLempsZ$b" resolve="TypedAttribute" />
+    <node concept="3EZMnI" id="2eHLempsZ$p" role="2wV5jI">
+      <node concept="3F0A7n" id="2eHLempsZ$w" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F1sOY" id="2eHLempsZ$A" role="3EZMnx">
+        <ref role="1NtTu8" to="paw0:2eHLempsZ$c" resolve="type" />
+      </node>
+      <node concept="2iRfu4" id="2eHLempsZ$s" role="2iSdaV" />
     </node>
   </node>
 </model>
